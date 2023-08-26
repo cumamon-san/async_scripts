@@ -1,4 +1,5 @@
 #!/bin/bash
 
 echo "[$$] Runinig"
-exit $(($$ % 2))
+sleep $1
+exit $1
