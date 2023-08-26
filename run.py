@@ -1,9 +1,8 @@
 #!/bin/python
 
 from multiprocessing.pool import ThreadPool
-from threading import Thread
-import subprocess
 from time import sleep
+import subprocess
 
 def task(count: int):
     print('Run task', count)
